@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="parametertest">
+<test name="login testing">
+<parameter name="firstname" value="Randy" />
+<parameter name="lastname" value="Chicago" />
+<parameter name="email" value="test@test.com" />
+<parameter name="state" value="marylan" />
+	
+	
+	<classes>
+		<class name="TestNGpackage.DataProviderTest">
+		<methods>
+			<include name="paratest" />
+		</methods>
+		</class>
+	</classes>
+</test>
+</suite>

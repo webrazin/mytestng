@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mytest">
+<test name="emiratestest">
+<classes>
+	<class name="TestNGpackage.FirstTest">
+	
+		<methods>
+	        <include name="bc" />
+			<include name="ba" />
+			
+			
+			
+		</methods>
+	</class>
+</classes>
+</test>
+</suite>
